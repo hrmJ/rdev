@@ -15,5 +15,7 @@ RUN sudo apt update && \
 
 
 RUN sudo Rscript -e 'install.packages("tidyverse", repos="https://cran.rstudio.com", dependencies=TRUE)'
+RUN sudo Rscript -e 'install.packages("rmarkdown", repos="https://cran.rstudio.com", dependencies=TRUE)'
+RUN sudo Rscript -e 'install.packages("bookdown", repos="https://cran.rstudio.com", dependencies=TRUE)'
 
 
