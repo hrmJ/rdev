@@ -19,4 +19,13 @@ RUN sudo Rscript -e 'install.packages("rmarkdown", repos="https://cran.rstudio.c
 RUN sudo Rscript -e 'install.packages("bookdown", repos="https://cran.rstudio.com", dependencies=TRUE)'
 RUN sudo Rscript -e 'install.packages("DiagrammR", repos="https://cran.rstudio.com", dependencies=TRUE)'
 
+# pandoc
+
+RUN wget https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-1-amd64.deb
+RUN sudo dpkg -i pandoc-2.7.3-1-amd64.deb
+
+
+
+COPY presentationTemplate/ "/home/$DOCKER_USER/presentationTemplate"
+
 # test

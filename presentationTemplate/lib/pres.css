@@ -1,0 +1,380 @@
+iframe{
+  border:0;
+}
+
+h1{
+    line-height:1 !important;
+    font-size:2em !important;
+}
+
+h3{
+    color:black;
+}
+
+.glossme .gloss__line--0{
+    color:black;
+}
+
+.large{
+    font-size:1.4em;
+}
+
+.huge{
+    font-size:2em;
+}
+
+.bimg img{
+    border: 1px solid darkgrey;
+}
+
+
+.gdbar img {
+  width: 350px !important;
+  height: 199px !important;
+  margin: 8px 8px;
+}
+
+.gdbar {
+  width: 400px !important;
+  height: 199px !important;
+}
+
+.wideimg img{
+    width:100%;
+}
+
+
+.wait{
+    display:none;
+}
+
+.biglightbox{
+    position:absolute;
+    z-index:30;
+    top:1em;
+    left:2em;
+    padding:0.2em;
+    background: antiquewhite;
+    border-radius:10px;
+    border: 1px solid black;
+    min-width:50vw;
+    height:60vh;
+}
+
+
+slides > slide:not(.nobackground):before {
+  width: 116px !important;
+  height: 22px !important;
+  background-size: 116px 22px !important;
+}
+
+.columncontainer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.columncontainer >*{
+    flex: 1 1 50%;
+    height:8em;
+}
+
+
+strong{
+    color:red;
+}
+
+
+.vert{
+    -webkit-transform: rotate(90deg);
+    width: max-content;
+}
+
+.chart-1{
+    background:lightblue;
+}
+
+.dense{
+    font-size:0.7em;
+}
+
+.extracted{
+    font-size:1.2em;
+    border-bottom: 2px dashed red;
+}
+
+.chartcolumn_chart{
+    display:flex;
+    justify-content: space-around;
+}
+
+.chartcolumn_chart > div{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.chartcolumn_chart >*:first-child{
+    display:flex;
+    align-items:center;
+}
+
+.chartcolumn_chart .vertcont{
+    justify-content:center;
+}
+
+.chartcolumn_chart >*:nth-child(2){
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+
+.chart-border{
+    border:1px solid darkgrey;
+    border-radius:5px;
+}
+
+
+.bgconnection{
+    z-index:0;
+    color:darkgrey;
+}
+
+.additional-text{
+    margin-top:1.5em;
+}
+
+div.additional-text p{
+    font-size:14px;
+}
+
+
+
+            .outerbox{
+                border: 1px solid black;
+                display: inline-block;
+                padding: 5px;
+            }
+
+            .cxg{
+                font-size:80%;
+            }
+
+            .outerbox > .statusline{
+                padding-left:5px;
+            }
+
+            .containerbox-outer{
+                display:inline-block;
+            }
+            .containerbox{
+                display:flex;
+                padding:0.2em;
+                align-items:flex-end;
+            }
+
+            .innerbox{
+                display:flex;
+            }
+
+            .node {
+                border: 1px solid black;
+                margin: 0.2em;
+                padding: 0.2em;
+            }
+
+            .node:last-child {
+                margin-right: 0em;
+            }
+
+
+            .featureline {
+                display: flex;
+            }
+
+            .fleft {
+                margin-right: 10px;
+            }
+
+            .matrixfeat{
+                border-left:1px solid black;
+                border-right:1px solid black;
+                border-radius:5px;
+                padding:0.3em;
+            }
+
+
+            .dashed{
+                border: 1px dashed black;
+            }
+
+            .quote p {
+                margin-bottom: 1em;
+            }
+
+            .quote {
+                margin-left: 3em;
+                font-family: serif;
+                padding: 0.1em 0.1em 0.4em 2em;
+                background: whitesmoke;
+                font-size: 90%;
+                line-height: 130%;
+                color: #4e4e4e;
+            }
+
+            .toc-content {
+                text-align: justify;
+                max-width: 700px;
+            }
+
+            .toc-content h1,.toc-content h2, .toc-content h3, .toc-content h4{
+                text-align: left;
+            }
+
+            .example li{
+                font-size:0.8em;
+            }
+
+            .example li + li{
+                margin-top:0.5em;
+            }
+
+            /* HACK kable-taulukoille rinta rinnan */
+            .kable_wrapper td table {
+                margin-right: 5em;
+                margin-bottom: 2em;
+            }
+
+            
+.pos_show span:hover{
+    cursor:pointer;
+}
+
+
+.boxed{
+    background: lightyellow;
+    padding:0.1em;
+    border-radius:7px;
+    border:1px solid black;
+    margin-left:0.2em;
+    margin-right:0.2em;
+}
+
+.lightbox, .lightbox_high{
+    position:absolute;
+    left:0px;
+    background: lightyellow;
+    padding:0.3em;
+    font-size:1em;
+    border-radius:7px;
+    border:1px solid black;
+}
+
+.lightbox{
+    top:-10px;
+}
+
+.lightbox_high{
+    top:-50px;
+}
+.annot_cont{
+    display:flex;
+    flex-flow: column;
+    align-items:center;
+    margin-right:1em;
+}
+
+.annot_cont > div{
+    background:lightblue;
+    padding:3px;
+}
+
+.annot_cont > div:first-child{
+    font-size:0.7em;
+    font-style:italic;
+}
+
+.annotate li, .annotate p{
+    display:flex;
+    flex-flow:row wrap;
+    align-items:end;
+    margin-bottom:1.3em;
+    font-size:0.7em;
+}
+
+
+/*
+ * GLOSSES
+ *
+ * http://jtauber.com/blog/2006/01/28/dynamic_interlinears_with_javascript_and_css/
+ *
+ * */
+
+
+.glossparent {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.unit {
+    display: flex;
+    flex-flow: column;
+}
+p.tl {
+    margin: 0em;
+    padding: 0px 10px;
+    font-size:0.55em !important;
+    white-space:nowrap;
+}
+p.sl {
+    margin: 0em;
+    padding: 0px 10px;
+    white-space:nowrap;
+}
+
+
+.arrow_box {
+	position: relative;
+	background: white;
+	border: 2px solid darkgrey;
+    height:100%;
+    padding:1em
+}
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: white;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: darkgrey;
+	border-width: 36px;
+	margin-top: -36px;
+}
+
+.depvar{
+    border: 1px solid darkgrey;
+    padding:1em;
+    height:100%;
+}
+
+.interact{
+    margin-left:1em;
+    border: 1px solid darkgrey;
+    padding:1em;
+    height:100%;
+}

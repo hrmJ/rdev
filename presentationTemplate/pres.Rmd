@@ -1,0 +1,25 @@
+---
+title: some title 
+author: Some author
+output:
+    ioslides_presentation:
+        widescreen: false
+        includes:
+          in_header: lib/header.html
+          after_body: lib/init.html
+css: lib/pres.css
+---
+
+
+--- 
+
+
+
+## First heading {.build}
+
+- test 
+- test 2
+
+## Impress.js test
+
+<iframe src="content/impressjs/impressjs_template.html" />
