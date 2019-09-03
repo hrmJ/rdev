@@ -73,3 +73,12 @@ RUN sudo apt update && \
 
 RUN sudo Rscript -e 'install.packages("plotly", repos="https://cran.rstudio.com", dependencies=TRUE)'
 # RUN sudo Rscript -e 'remotes::install_github("yihui/xaringan")'
+
+
+# INSTALL tex support for bookdown and stuff
+RUN echo "moro"
+
+#RUN sudo apt update && \
+#    sudo apt install -y texlive-base &&\
+#    sudo rm -rf /var/lib/apt/lists/*
+
